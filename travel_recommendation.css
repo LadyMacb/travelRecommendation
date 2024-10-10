@@ -32,53 +32,7 @@ nav {
     font-weight: bold;
   }
 
-    /* Basic CSS for the body */
-    #bgimage {
-        background-image: url('./London_Skyline_(125508655).jpg');
-        
-        height: 800px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
-    body {
-        font-family: Arial, sans-serif;
-        /* margin: 20px; */
-        color: #f0f0f0;
-              }
-      
-      h1 {font-size: xx-large;
-        font-weight: bolder;
-        margin-left: 30px;
-        margin-bottom: 20px;
-      }
-      
-      div {
-        margin-bottom: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100px;
-        width: 100%;
-       
-          }
-        
-      
-      
-      label {
-        display: inline-block;
-        width: 100px;
-      }
-      
-      input[type="text"],
-      input[type="number"],
-      select {
-        width: 200px;
-        padding: 5px;
-      }
-      
-      button {
+        button {
         padding: 7px 15px;
         background-color: #966ce4;
         color: white;
@@ -91,6 +45,82 @@ nav {
       }
 
 
+    /* Basic CSS for the body */
+    
+    
+    body {
+        font-family: Arial, sans-serif;
+        /* margin: 20px; */
+        color: #f0f0f0;
+        background-image: url('./London_Skyline_(125508655).jpg');
+        
+        height: 800px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+              }
+      
+  
+      
+      .h1 {
+          display: flex;
+   justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: xx-large;
+        font-weight: bolder;
+        margin-left: 30px;
+        max-width: 50%;
+  
+          }
+
+
+          .p {
+            display: flex;
+     justify-content: center;
+    align-items: left;
+    margin-left: 30px;
+    max-width: 25%;
+    margin-top: -100px;
+
+         
+            }
+      
+            .abouth1 {
+                
+         justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-size: xx-large;
+              font-weight: bolder;
+              margin-left: 30px;
+        
+             
+             
+        
+                }
+                .aboutp {
+                   
+             
+            align-items: left;
+            margin-left: 30px;
+            
+            margin-top: -350px;
+            max-width: 85%;
+                }
+      label {
+        display: inline-block;
+        width: 100px;
+      }
+      
+      input[type="text"],
+      input[type="number"],
+      select {
+        width: 200px;
+        padding: 5px;
+      }
+      
 
   /* Basic CSS for the report section */
   h2 {
